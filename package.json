@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "start": "concurrently \"npm run start --prefix server\" \"npm run start --prefix client\""
+  },  
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
